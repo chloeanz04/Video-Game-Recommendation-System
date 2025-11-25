@@ -23,20 +23,11 @@ The project explored two main recommendation approaches:
 - **Technique:** Implemented **[SPECIFIC_TECHNIQUE, e.g., Singular Value Decomposition (SVD), Matrix Factorization, or KNN-based Filtering]** based on the User-Item Interaction Matrix.
 - **Goal:** Suggest games that users with similar tastes and historical behavior have liked, leveraging the 'wisdom of the crowd'.
 
-## 4. Model Performance
-Model performance was evaluated using standard recommender system metrics.
-
-| Model | Approach | Evaluation Metric | Result |
-| :--- | :--- | :--- | :--- |
-| Model 1 | [e.g., Content-Based + Cosine Similarity] | [Metric] | [Insert Result] |
-| Model 2 | [e.g., Collaborative Filtering + SVD] | [Metric] | [Insert Result] |
-| **Best Performing Model** | [Insert Best Model Name] | [Metric] | [Insert Best Result] |
-
-## 5. Technology Stack
+## 4. Technology Stack
 - **Language:** Python, Jupyter Notebook
 - **Key Libraries:** `pandas`, `numpy`, `scikit-learn`, `surprise`/`tensorflow`/`pytorch`, `matplotlib`, `seaborn`
 
-## 6. Repository Structure
+## 5. Repository Structure
 .
 ├── DEMO/ # Live demo files or result screenshots
 ├── [GROUP 5]_Video_Games_RecSys_CODE.ipynb # Jupyter Notebook with main code, EDA, and model testing
@@ -44,7 +35,7 @@ Model performance was evaluated using standard recommender system metrics.
 ├── README.md # Project description
 └── [Data_File_Name].csv/.json # Dataset file (if included)
 
-## 7. Setup and Installation
+## 6. Setup and Installation
 1. **Clone the repository:**
 ```bash
 git clone https://github.com/chloeanz04/Video-Game-Recommendation-System.git

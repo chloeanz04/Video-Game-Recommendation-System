@@ -51,8 +51,7 @@ git clone https://github.com/chloeanz04/Video-Game-Recommendation-System.git
 cd Video-Game-Recommendation-System
 ```
 2. **Install dependency**
-# If a requirements.txt file exists
+```bash
 pip install -r requirements.txt
+```
 
-# Otherwise install manually
-pip install pandas numpy scikit-learn [Your_Recommender_Library]

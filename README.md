@@ -24,13 +24,13 @@ The project explored two main recommendation approaches:
 - **Goal:** Suggest games that users with similar tastes and historical behavior have liked, leveraging the 'wisdom of the crowd'.
 
 ## Repository Structure
-.
+```text
 ├── DEMO/ # Live demo files or result screenshots
 ├── [GROUP 5]_Video_Games_RecSys_CODE.ipynb # Jupyter Notebook with main code, EDA, and model testing
 ├── [GROUP 5]_Video_Games_RecSys_REPORT.pdf # Final project report with analysis and results
 ├── README.md # Project description
 └── [Data_File_Name].csv/.json # Dataset file (if included)
-
+```
 ## Setup and Installation
 1. **Clone the repository:**
 ```bash

@@ -1,6 +1,6 @@
-# Video Game Recommendation System
+# [Python] Video Game Recommendation System
 
-## 1. Project Overview
+## Project Overview
 This project implements a personalized recommendation system for video games, designed to help users discover new titles based on their preferences and interaction history. The system leverages machine learning techniques to tackle information overload, ensuring users receive relevant and highly personalized suggestions.
 
 **Core Objectives:**
@@ -8,26 +8,22 @@ This project implements a personalized recommendation system for video games, de
 - Compare different filtering approaches (e.g., Collaborative Filtering vs. Content-Based).
 - Provide a foundational framework for deployment and testing of recommendations.
 
-## 2. Data Source
-- **Dataset:** [Insert the name of the dataset used, e.g., Steam Games Dataset, IGN Reviews, etc.]
+## Data Source
+- **Dataset:** 
 - **Description:** The dataset includes detailed game features (developers, genres, tags) and rich user interaction data (ratings, playtime, reviews) used to build the user-item interaction matrix.
 
-## 3. Methodology
+## Methodology
 The project explored two main recommendation approaches:
 
-### 3.1. Content-Based Filtering
-- **Technique:** Utilized **[SPECIFIC_TECHNIQUE, e.g., TF-IDF Vectorizer and Cosine Similarity]** on game metadata (title, description, genre tags) to identify games with highly similar attributes.
+### Content-Based Filtering
+- **Technique:** Utilized **TF-IDF Vectorizer, Truncated SVD, Cosine Similarity or KNN** on game metadata (title, description, genre tags) to identify games with highly similar attributes.
 - **Goal:** Recommend games similar to those the user has enjoyed in the past, effectively leveraging game features.
 
-### 3.2. Collaborative Filtering
-- **Technique:** Implemented **[SPECIFIC_TECHNIQUE, e.g., Singular Value Decomposition (SVD), Matrix Factorization, or KNN-based Filtering]** based on the User-Item Interaction Matrix.
+### Collaborative Filtering
+- **Technique:** Simple filtering.
 - **Goal:** Suggest games that users with similar tastes and historical behavior have liked, leveraging the 'wisdom of the crowd'.
 
-## 4. Technology Stack
-- **Language:** Python, Jupyter Notebook
-- **Key Libraries:** `pandas`, `numpy`, `scikit-learn`, `surprise`/`tensorflow`/`pytorch`, `matplotlib`, `seaborn`
-
-## 5. Repository Structure
+## Repository Structure
 .
 ├── DEMO/ # Live demo files or result screenshots
 ├── [GROUP 5]_Video_Games_RecSys_CODE.ipynb # Jupyter Notebook with main code, EDA, and model testing
@@ -35,7 +31,7 @@ The project explored two main recommendation approaches:
 ├── README.md # Project description
 └── [Data_File_Name].csv/.json # Dataset file (if included)
 
-## 6. Setup and Installation
+## Setup and Installation
 1. **Clone the repository:**
 ```bash
 git clone https://github.com/chloeanz04/Video-Game-Recommendation-System.git

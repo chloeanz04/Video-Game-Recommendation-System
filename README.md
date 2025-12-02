@@ -19,10 +19,6 @@ The project explored two main recommendation approaches:
 - **Technique:** Utilized **TF-IDF Vectorizer, Truncated SVD, Cosine Similarity or KNN** on game metadata (title, description, genre tags) to identify games with highly similar attributes.
 - **Goal:** Recommend games similar to those the user has enjoyed in the past, effectively leveraging game features.
 
-### Collaborative Filtering
-- **Technique:** Simple filtering.
-- **Goal:** Suggest games that users with similar tastes and historical behavior have liked, leveraging the 'wisdom of the crowd'.
-
 ## Repository Structure
 ```text
 ├── DEMO/ # Live demo files or result screenshots

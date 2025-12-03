@@ -44,6 +44,16 @@ Through EDA, the most suitable method for this dataset is **Content-Based Filter
 - **Single Filtering**: Recommends games by selecting titles that share similar attributes (genre, theme, concept, franchise, or developer) with the input games.
 - **Web Demo** – Develops an interactive app to visualize and explore game recommendations.
 
+---
+
+## Results
+| Method                  | Processing Time | Relevance to Input | Diversity of Recommendations | Suitable Scenario |
+|-------------------------|----------------|------------------|------------------------------|-----------------|
+| Cosine Similarity       | 12–13 s        | High – closely matches user’s played games | Moderate – sometimes not fully similar | When users want suggestions very close to their previous preferences |
+| KNN                     | 6–7 s          | Medium – sometimes not truly similar | Less diverse – focuses on similar content | When users want to explore similar games |
+| SVD + Cosine Similarity | 0.18–0.20 s    | High – similar to original Cosine results | More diverse – provides new options | When users want faster recommendations with some diversity |
+| SVD + KNN               | 0.05–0.07 s    | Medium – similar to original KNN results | More diverse – provides new options | When users want very fast recommendations exploring new types of games |
+
 ## Repository Structure
 ```text
 ├── DEMO/ # Live demo files or result screenshots

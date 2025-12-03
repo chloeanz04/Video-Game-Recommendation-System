@@ -56,6 +56,16 @@ Through EDA, the most suitable method for this dataset is **Content-Based Filter
 
 ---
 
+## Future Directions
+
+1. **Expanding Data Sources:** Collect additional data from websites containing user ratings and reviews to implement a **Collaborative Filtering** model, which can then be combined with Content-Based Filtering for a **Hybrid Recommendation** system.  
+
+2. **User Interaction:** Allow users to select desired attributes and adjust recommendations after each suggestion, improving results through iterative interactions.  
+
+3. **Prioritizing Popular Games:** Incorporate aggregate statistics such as wishlist counts, discussion activity, and community ratings to prioritize recommendations of trending or popular games.
+
+---
+
 ## Repository Structure
 ```text
 ├── DEMO/ # Live demo files or result screenshots

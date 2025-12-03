@@ -1,8 +1,10 @@
 # [Python] Video Game Recommendation System
 
 ## Overview
+
 This project implements a personalized recommendation system for video games, designed to help users discover new titles based on their preferences.
 The original project: [Video Game Recommendation Engine by SulmanK](https://github.com/SulmanK/Video-Game-Recommendation-Engine/blob/master/Video%20Game%20Recommendation%20Engine.ipynb)
+
 ---
 
 ## Data Source

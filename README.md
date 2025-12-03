@@ -1,7 +1,7 @@
 # [Python] Video Game Recommendation System
 
-## Project Overview
-This project implements a personalized recommendation system for video games, designed to help users discover new titles based on their preferences and interaction history. The system leverages machine learning techniques to tackle information overload, ensuring users receive relevant and highly personalized suggestions.
+## Overview
+This project implements a personalized recommendation system for video games, designed to help users discover new titles based on their preferences.
 
 **Core Objectives:**
 - Develop and evaluate high-performing recommendation models.

@@ -3,10 +3,7 @@
 ## Overview
 This project implements a personalized recommendation system for video games, designed to help users discover new titles based on their preferences.
 
-**Core Objectives:**
-- Develop and evaluate high-performing recommendation models.
-- Compare different filtering approaches (e.g., Collaborative Filtering vs. Content-Based).
-- Provide a foundational framework for deployment and testing of recommendations.
+---
 
 ## Data Source
 - **Dataset:** [GiantBomb API](https://www.giantbomb.com/api/)
@@ -21,6 +18,11 @@ This project implements a personalized recommendation system for video games, de
   - `theme`: game themes  
   - `concept`: game style or concept  
   - `franchise`: series the game belongs to
+  - 
+Through 
+
+---
+
 ## Methodology
 The project explored two main recommendation approaches:
 

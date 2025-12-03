@@ -9,9 +9,18 @@ This project implements a personalized recommendation system for video games, de
 - Provide a foundational framework for deployment and testing of recommendations.
 
 ## Data Source
-- **Dataset:** https://www.giantbomb.com/api/
-- **Description:** The dataset includes detailed game features (developers, genres, tags) and rich user interaction data (ratings, playtime, reviews) used to build the user-item interaction matrix.
-
+- **Dataset:** [GiantBomb API](https://www.giantbomb.com/api/)
+- **Description:** The dataset contains detailed information about games, including:
+  - `id`: unique identifier for each game  
+  - `name`: name of the game  
+  - `original_game_rating`: age rating according to US standards  
+  - `original_release_date`: release date of the game  
+  - `platform`: compatible gaming platforms  
+  - `developers`: game developers  
+  - `genre`: game genres  
+  - `theme`: game themes  
+  - `concept`: game style or concept  
+  - `franchise`: series the game belongs to
 ## Methodology
 The project explored two main recommendation approaches:
 

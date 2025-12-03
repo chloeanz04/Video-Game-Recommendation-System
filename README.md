@@ -54,6 +54,12 @@ Through EDA, the most suitable method for this dataset is **Content-Based Filter
 | SVD + Cosine Similarity | **0.18–0.20 s**    | High – similar to original Cosine results | More diverse – provides new options | When users want faster recommendations with some diversity |
 | SVD + KNN               | **0.05–0.07 s**    | Medium – similar to original KNN results | More diverse – provides new options | When users want very fast recommendations exploring new types of games |
 
+**Conclusion:**  
+- **TF-IDF + SVD + Cosine Similarity** prioritizes recommending games that users are most likely to enjoy, providing a **safe and reliable** suggestion strategy.  
+- **TF-IDF + SVD + KNN** emphasizes the **user experience**, delivering instant recommendations while helping users explore a wider variety of game genres, resulting in a **richer and more diverse** discovery process.  
+
+Both approaches demonstrate the trade-off between accuracy and diversity, allowing the system to be tailored to different user needs and preferences.
+
 ---
 
 ## Future Directions

@@ -37,11 +37,12 @@ Through EDA, the most suitable method for this dataset is **Content-Based Filter
 ---
 
 ## Methodology
-The project explored two main recommendation approaches:
-
-### Content-Based Filtering
-- **Technique:** Utilized **TF-IDF Vectorizer, Truncated SVD, Cosine Similarity or KNN** on game metadata (title, description, genre tags) to identify games with highly similar attributes.
-- **Goal:** Recommend games similar to those the user has enjoyed in the past, effectively leveraging game features.
+- **TF-IDF Vectorization**: Encodes categorical text attributes (`game_rating`, `developer`, `genre`, `theme`, `concept`) into numerical feature vectors.  
+- **Cosine Similarity**: Measures similarity between games based on their TF-IDF vectors.  
+- **K-Nearest Neighbors (KNN)**: Identifies the K most similar games for a given input game.  
+- **Truncated SVD (Singular Value Decomposition)**: Reduces feature dimensionality to improve runtime performance.  
+- **Single Filtering**: Recommends games by selecting titles that share similar attributes (genre, theme, concept, franchise, or developer) with the input games.
+- **Web Demo** – Develops an interactive app to visualize and explore game recommendations.
 
 ## Repository Structure
 ```text

@@ -18,8 +18,16 @@ This project implements a personalized recommendation system for video games, de
   - `theme`: game themes  
   - `concept`: game style or concept  
   - `franchise`: series the game belongs to
-  - 
-Through 
+
+Through EDA, the most suitable method for this dataset is **Content-Based Filtering** due to the following reasons:
+- Only game information is required; no user data is needed.
+- Well-suited for sparse datasets.
+- Easy to implement.
+- Selected vectorization method: **TF-IDF**:
+  - The dataset contains short text data (mainly lists of tags), so more expensive methods are unnecessary.
+  - TF-IDF highlights less common tags better than Count Vectorizer.
+  - The algorithm is simple, which optimizes computational efficiency.
+
 
 ---
 

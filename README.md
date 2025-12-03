@@ -54,6 +54,8 @@ Through EDA, the most suitable method for this dataset is **Content-Based Filter
 | SVD + Cosine Similarity | **0.18–0.20 s**    | High – similar to original Cosine results | More diverse – provides new options | When users want faster recommendations with some diversity |
 | SVD + KNN               | **0.05–0.07 s**    | Medium – similar to original KNN results | More diverse – provides new options | When users want very fast recommendations exploring new types of games |
 
+---
+
 ## Repository Structure
 ```text
 ├── DEMO/ # Live demo files or result screenshots
@@ -62,6 +64,9 @@ Through EDA, the most suitable method for this dataset is **Content-Based Filter
 ├── README.md # Project description
 └── [Data_File_Name].csv/.json # Dataset file (if included)
 ```
+
+---
+
 ## Setup and Installation
 1. **Clone the repository:**
 ```bash

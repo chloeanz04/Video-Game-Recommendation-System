@@ -93,4 +93,7 @@ cd Video-Game-Recommendation-System
 ```bash
 pip install -r requirements.txt
 ```
-
+3. **Run sequence**
+```bash
+init_db.py -> init_offline_stage.py -> app.py
+```
